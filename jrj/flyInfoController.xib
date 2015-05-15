@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="flyInfoController">
+            <connections>
+                <outlet property="iconView" destination="d9a-nk-QQ2" id="2WE-bV-va0"/>
+                <outlet property="infoWebview" destination="o5S-1B-p0R" id="ak5-0N-YN4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="d9a-nk-QQ2">
+                    <rect key="frame" x="0.0" y="64" width="600" height="159"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="159" id="JuC-69-r9p"/>
+                    </constraints>
+                </imageView>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o5S-1B-p0R">
+                    <rect key="frame" x="0.0" y="220" width="600" height="380"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="d9a-nk-QQ2" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="BUw-oO-7Oh"/>
+                <constraint firstItem="o5S-1B-p0R" firstAttribute="top" secondItem="d9a-nk-QQ2" secondAttribute="bottom" constant="-3" id="Hmg-Fk-wra"/>
+                <constraint firstAttribute="trailing" secondItem="d9a-nk-QQ2" secondAttribute="trailing" id="OcM-gk-n8h"/>
+                <constraint firstAttribute="trailing" secondItem="o5S-1B-p0R" secondAttribute="trailing" id="XkO-tn-W5w"/>
+                <constraint firstAttribute="bottom" secondItem="o5S-1B-p0R" secondAttribute="bottom" id="kmw-6C-rLG"/>
+                <constraint firstItem="d9a-nk-QQ2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rIK-dd-n9f"/>
+                <constraint firstItem="o5S-1B-p0R" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uNt-rN-db2"/>
+            </constraints>
+            <point key="canvasLocation" x="177" y="120"/>
+        </view>
+    </objects>
+</document>

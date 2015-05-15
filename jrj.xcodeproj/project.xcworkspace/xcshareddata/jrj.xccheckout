@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8EA4B3C9-40EF-40E3-AFD8-9A0BE3697560</string>
+	<key>IDESourceControlProjectName</key>
+	<string>jrj</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0CFBFCA03D07A221AC2C6BFD2D2267BD63EE2142</key>
+		<string>192.168.1.211:jrj/jrj-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>jrj.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0CFBFCA03D07A221AC2C6BFD2D2267BD63EE2142</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>192.168.1.211:jrj/jrj-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0CFBFCA03D07A221AC2C6BFD2D2267BD63EE2142</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0CFBFCA03D07A221AC2C6BFD2D2267BD63EE2142</string>
+			<key>IDESourceControlWCCName</key>
+			<string>jrj</string>
+		</dict>
+	</array>
+</dict>
+</plist>
